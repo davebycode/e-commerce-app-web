@@ -1,0 +1,33 @@
+.main-container {
+  margin-top: 5%;
+  height:100vh;
+  width: 100%;
+  position: relative;
+  padding-top: 5px;
+  /* margin-top: 30px; */
+  
+}
+.describe {
+  top: 40%;
+  z-index: 800;
+  position: absolute;
+  font-size: large;
+  color: rgb(255, 3, 3);
+  font-weight: bolder;
+  font-size: 1.5rem;
+  left: 8%;
+  filter: brightness(80%);
+}
+.carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carousel span {
+  width: 30px;
+  height: 5px;
+  background-color: transparent;
+  gap: 2px;
+  left: 10%;
+  position: absolute;
+}
