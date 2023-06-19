@@ -4,7 +4,7 @@ export default function Banana() {
   return (
     <div className='produce'>
         
-        <div className="display">
+        <div className="displays">
             <img src="./fruits/banana.jpg" alt="shirt"/>
             <div className="tags">
             <p>Banana</p>

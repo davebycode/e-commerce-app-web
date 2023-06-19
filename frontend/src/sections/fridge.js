@@ -3,7 +3,7 @@ import React from 'react'
 export default function Fridge() {
   return (
     <div className='produce'>
-      <div className="display">
+      <div className="displays">
             <img src="./images/fridge.jpg" alt="shirt"/>
             <div className="tags">
             <p>Fridge</p>

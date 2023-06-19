@@ -4,12 +4,11 @@ import MyData from "../products/data";
 function ShirtsBoard () {
     const {hint} = useParams()
     const PrivateView = MyData.shirts.find(one => one.hint === hint)
-    // const {image, name} = PrivateView
     return (
-        <div className="produce" style={{width: '390px', margin: "auto"}}>
+        <div className="produce" style={{width: '40%', margin: "auto"}}>
             
-        <div className="display">
-            <img src={PrivateView.image} alt={PrivateView.name} style={{justifyContent: 'center', textAlign: 'center'}}/>
+        <div className="displaying">
+            <img src={PrivateView.image} alt={PrivateView.name} />
             <div className="tags">
             <p>{PrivateView.name}</p>
             <p>Number of Stock:{PrivateView.numberOfStock}</p>

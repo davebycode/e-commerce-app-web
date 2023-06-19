@@ -3,12 +3,12 @@ import BackToTop from './BackToTop'
 import axios from 'axios'
 import { useState } from 'react'
 import {useEffect} from 'react'
+
 export default function Address() {
 const [email, setEmail] = useState('')
-
 const handle = async(e)=> {
 e.preventDefault()
-console.log(email, setEmail)
+console.log(JSON.stringify(email, setEmail))
 try{
   window.alert(JSON.stringify('submitted'))
  await axios.get('http://localhost:5000/test', {email})
@@ -28,7 +28,7 @@ useEffect(()=> {
     <div className='hurry'>
       
       <div className='hurry3'>
-      <i class="fa-solid fa-dumpster-fire" style={{color:"orangered", fontSize:"2rem"}}><h4 style={{fontSize:"0.8rem", color:'white'}}>De~Frankys</h4></i>
+      <i class="fa-solid fa-dumpster-fire" style={{color:"orangered", fontSize:"7rem"}}><h4 style={{fontSize:"3rem", color:'white'}}>De~Frankys</h4></i>
       
       <diV className= 'hurry2'>
       <div className='woke'>
@@ -46,29 +46,31 @@ useEffect(()=> {
       
       </diV>
       <div className='wokes'>
-        <b><i class="fa-brands fa-facebook" style={{color:"blue", fontSize:"1.5rem"}}></i></b>
+        <b><i class="fa-brands fa-facebook" style={{color: "blue"}}></i></b>
         <br/>
         <br/>
-        <b><i class="fa-brands fa-instagram" style={{color:"red", fontSize:"1.5rem"}}></i></b>
+        <b><i class="fa-brands fa-instagram" style={{color: "red"}}></i></b>
         <br/>
         <br/>
-        <b><i class="fa-brands fa-twitter" style={{color:"blue", fontSize:"1.5rem"}}></i></b>
+        <b><i class="fa-brands fa-twitter" style={{color: "blue"}}></i></b>
         <br/>
         <br/>
-        <b><i class="fa-brands fa-github" style={{color:"white", fontSize:"1.5rem"}}></i></b>
+        <b><i class="fa-brands fa-github" style={{color: "white"}}></i></b>
         <br/>
         <br/>
         </div>
         
       </div>
-        <span>Designed by Davidbycode</span>
-      <BackToTop/>
       <div>
         <form className='woked' >
-        <lable htmlFor='email' style={{backgroundColor:'black', color:'white'}}>Email</lable>
+        <label htmlFor='email' style={{color:'black'}}>Email</label>
         <input type='email' placeholder='Email Here'  style={{color:'black'}} value={email} onChange={(e)=>{setEmail(e.target.value)}}></input>
         <button onSubmit={handle} type='submit'>Send Here</button>
         </form>
+        <br/>
+        <br/>
+        <br/>
+         <BackToTop/>
         </div>
         
       </div>

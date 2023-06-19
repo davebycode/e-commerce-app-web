@@ -9,7 +9,7 @@ export default function Apple() {
     }
   return (
     <div className='produce'>
-        <div className="display">
+        <div className="displays">
             <img src="./fruits/apple.jpg" alt="shirt"/>
             <div className="tags">
             <p>Apple</p>

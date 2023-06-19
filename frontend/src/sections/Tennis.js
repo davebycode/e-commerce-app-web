@@ -4,7 +4,7 @@ export default function Tennis() {
   return (
     <div>
       <div className='produce'>
-      <div className="display">
+      <div className="displays">
             <img src="./sports/Tennis.jpg" alt="shirt"/>
             <div className="tags">
             <p>Tennis</p>

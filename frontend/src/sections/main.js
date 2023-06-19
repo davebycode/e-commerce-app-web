@@ -39,7 +39,7 @@ function MainData() {
                  <a href='/shoe'><img src= './images/shoes.jpg' alt='shoes'/></a>
              <div className='tags'>
        <a href='/shoe'><p style={{color: 'black'}}>Shoe-Collections</p></a>
-       <p style={{color: 'black'}}>Various designs and Sizes</p>           
+       <p style={{color: 'black'}}>Good Sizes.</p>           
        <p style={{color: 'black'}}>5.2</p>
        </div>
        </div>

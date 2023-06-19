@@ -3,7 +3,7 @@ import React from 'react'
 export default function Iphone() {
   return (
     <div className='produce'>
-        <div className="display">
+        <div className="displays">
             <img src="./images/i-phone.jpg" alt="shirt"/>
             <div className="tags">
             <p>I-phone</p>

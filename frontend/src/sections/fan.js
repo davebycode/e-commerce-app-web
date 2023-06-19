@@ -10,7 +10,7 @@ function Fan ({name, price}) {
     return (
         <div className="produce">
             
-            <div className="display">
+            <div className="displays">
             <img src="./images/fan.jpg" alt="shirt"/>
             <div className="tags">
             <p>Fan</p>

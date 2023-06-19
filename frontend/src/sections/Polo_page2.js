@@ -7,8 +7,8 @@ function PoloBoard () {
     const PoloView = MyData.polos.find(two => two.hint === hint)
     
     return (
-        <div className="produce" style={{width: '390px', margin: "auto"}}>
-        <div className="display">
+        <div className="produce" style={{width: '40%', margin: "auto"}}>
+        <div className="displaying">
             <img src={PoloView.image} alt={PoloView.name}/>
             <div className="tags">
             <p>{PoloView.name}</p>

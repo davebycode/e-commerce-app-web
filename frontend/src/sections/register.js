@@ -23,8 +23,9 @@ if (check) {
   return (
     
     <div className='data-form'>
-      <form onSubmit={handleSubmit(onSubmit)}>
+      <form className='log' onSubmit={handleSubmit(onSubmit)}>
       <h2>Register</h2>
+      <div className='logs'>
       <label htmlFor='name'>Username</label>
          <input type='text' {...register('Username', {required:true})}/>
       <label htmlFor='fullName'>FullName</label>
@@ -37,6 +38,7 @@ if (check) {
         {errors.password && <span style={{backgroundColor:'red'}}>'Password is mandatory'</span>}
         <button type={'submit'}>Register</button>
         <Link to='/login'><p>Already have an account? Login Here</p></Link>
+        </div>
       </form>
       
     </div>

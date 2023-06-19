@@ -1,10 +1,9 @@
 import React from 'react'
-
 export default function Cricket() {
   return (
     <div>
       <div className='produce'>
-      <div className="display">
+      <div className="displays">
             <img src="./sports/cricket.jpg" alt="shirt"/>
             <div className="tags">
             <p>Cricket</p>

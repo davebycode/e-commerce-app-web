@@ -5,7 +5,7 @@ export default function FruitCollections() {
     <div className='first_one'>
       <div className='ones'>
                  <a href='/apple'><img src='./fruits/apple.jpg' alt='polo'/></a>
-                 <a href='/apple'><p>apple</p></a>
+                 <a href='/apple'><p>Apple</p></a>
              </div>
        <div className='ones'>
                  <a href='/banana'><img src='./fruits/banana.jpg' alt='polo'/></a>

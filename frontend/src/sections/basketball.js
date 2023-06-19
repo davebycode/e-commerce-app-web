@@ -4,7 +4,7 @@ export default function BasketBall() {
   return (
     <div>
       <div className='produce'>
-      <div className="display">
+      <div className="displays">
             <img src="./sports/basketball.jpg" alt="shirt"/>
             <div className="tags">
             <p>Basketball</p>

@@ -4,7 +4,7 @@ export default function Racket() {
   return (
     <div>
       <div className='produce'>
-      <div className="display">
+      <div className="displays">
             <img src="./sports/Racket.jpg" alt="shirt"/>
             <div className="tags">
             <p>Racket</p>

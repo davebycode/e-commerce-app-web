@@ -2,7 +2,7 @@ import React from "react";
 function Blender(){
     return (
         <div className="produce">
-            <div className="display">
+            <div className="displays">
             <img src="./images/blender.jpg" alt="shirt"/>
             <div className="tags">
             <p>Blender</p>

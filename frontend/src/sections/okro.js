@@ -3,7 +3,7 @@ import React from 'react'
 export default function Okro() {
   return (
     <div className='produce'>
-        <div className="display">
+        <div className="displays">
             <img src="./fruits/okro.jpg" alt="shirt"/>
             <div className="tags">
             <p>Okro</p>

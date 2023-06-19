@@ -16,12 +16,12 @@ import { useState } from 'react'
 
     return (
         <header>
-         <i class="fa-solid fa-dumpster-fire" style={{color:"orangeRed", fontSize:"2rem"}}><Link to="/" style={{textDecoration: 'underline', textDecorationColor: 'orangeRed', textDecorationThickness: '5px'}}>D<span>e</span> ~ Frankys</Link></i>
+         <i class="fa-solid fa-dumpster-fire" style={{color:"orangeRed", fontSize:"5rem"}}><Link to="/" style={{textDecoration: 'underline',fontSize: '3rem', textDecorationColor: 'orangeRed', textDecorationThickness: '5px'}}>D<span>e</span> ~ Frankys</Link></i>
           <div>
               <ul className='bars-not'>
-                <li><Link to='/login'><button className='one'>Login <i class="fa-solid fa-circle-user" style={{color:"white", fontSize:"1rem"}}></i></button></Link></li>
-                <li><Link to='/cart'><i class="fa-solid fa-cart-shopping" 
-       style={{color:"white",fontSize:"1rem"}} ></i>{state.count}</Link></li>
+                <li><Link to='/login'><button className='one' style={{fontSize: "3rem"}}>Login <i class="fa-solid fa-circle-user" style={{color:"white", fontSize:"3rem"}}></i></button></Link></li>
+                <li><Link to='/cart' style={{fontSize: "3rem"}}><i class="fa-solid fa-cart-shopping" 
+       style={{color:"white",fontSize:"3rem"}} ></i>{state.count}</Link></li>
        </ul>
        <div >
          <div className='bars'>

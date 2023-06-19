@@ -24,8 +24,9 @@ function Log() {
   return (
     
     <div className='data-form'>
-        <form onSubmit={handleSubmit(onSubmit)}>
+        <form className='log' onSubmit={handleSubmit(onSubmit)}>
       <h2>Login</h2>
+      <div className='logs'>
         <label htmlFor='email'>Email</label>
          <input type='email' value={name} onChange={()=>setName(name)}{...register('email', {required:true})}/>
          {errors.email && <span style={{color:'red'}}>'Email is mandatory'</span>}
@@ -34,6 +35,7 @@ function Log() {
         {errors.password && <span style={{color:'red'}}>'Password is mandatory'</span>}
         <button type={'submit'}>Log In</button>
         <Link to='/login/register'><p>Don't have an account? Register here</p></Link>
+        </div>
       </form>
       
     </div>
