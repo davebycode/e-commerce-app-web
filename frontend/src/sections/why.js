@@ -4,7 +4,7 @@ export default function Why() {
   return (
     <div>
       <div className="flash">
-            <h2 className='about'>Why not shop with us? <i class="fa-solid fa-phone" style={{color: "red",fontSize: '5rem'}}></i></h2>   
+            <h2 className='about'>Why not shop with us? <i class="fa-solid fa-phone" style={{color: "red"}}></i></h2>   
         </div>
     </div>
   )

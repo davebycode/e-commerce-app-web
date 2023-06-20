@@ -6,7 +6,7 @@ function HeelsBoard () {
     const HeelsView = MyData.Heels.find(four => four.hint === hint)
     
     return (
-        <div className="produce" style={{width: '40%', margin: "auto"}}>
+        <div className="produced" style={{margin: "auto"}}>
         <div className="displaying">
             <img src={HeelsView.image} alt={HeelsView.name}/>
             <div className="tags">

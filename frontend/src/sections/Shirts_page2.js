@@ -5,7 +5,7 @@ function ShirtsBoard () {
     const {hint} = useParams()
     const PrivateView = MyData.shirts.find(one => one.hint === hint)
     return (
-        <div className="produce" style={{width: '40%', margin: "auto"}}>
+        <div className="produced" style={{margin: "auto"}}>
             
         <div className="displaying">
             <img src={PrivateView.image} alt={PrivateView.name} />

@@ -22,9 +22,9 @@ const scrollup = ()=> {
 }
 
   return (
-    <div>
+    <div className='back'>
         {Backtotop &&
-      <button style={{fontSize: '3rem', backgroundColor: 'black', color: 'white'}} onClick={scrollup}> &rarr;Designed by Davidbycode</button>
+      <button style={{backgroundColor: 'black', color: 'white'}} onClick={scrollup}> &rarr;Designed by Davidbycode</button>
         }
     </div>
   )

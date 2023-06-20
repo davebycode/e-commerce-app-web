@@ -16,12 +16,12 @@ import { useState } from 'react'
 
     return (
         <header>
-         <i class="fa-solid fa-dumpster-fire" style={{color:"orangeRed", fontSize:"5rem"}}><Link to="/" style={{textDecoration: 'underline',fontSize: '3rem', textDecorationColor: 'orangeRed', textDecorationThickness: '5px'}}>D<span>e</span> ~ Frankys</Link></i>
+         <i class="fa-solid fa-dumpster-fire" style={{color:"orangeRed"}}><Link to="/" style={{textDecoration: 'underline',fontSize: '3rem', textDecorationColor: 'orangeRed', textDecorationThickness: '5px'}}><span>De ~ Frankys</span></Link></i>
           <div>
               <ul className='bars-not'>
-                <li><Link to='/login'><button className='one' style={{fontSize: "3rem"}}>Login <i class="fa-solid fa-circle-user" style={{color:"white", fontSize:"3rem"}}></i></button></Link></li>
-                <li><Link to='/cart' style={{fontSize: "3rem"}}><i class="fa-solid fa-cart-shopping" 
-       style={{color:"white",fontSize:"3rem"}} ></i>{state.count}</Link></li>
+                <li><Link to='/login'><button className='one'>Login <i class="fa-solid fa-circle-user" style={{color:"white"}}></i></button></Link></li>
+                <li><Link to='/cart'><i class="fa-solid fa-cart-shopping" 
+       style={{color:"white"}} ></i>{state.count}</Link></li>
        </ul>
        <div >
          <div className='bars'>
@@ -29,13 +29,10 @@ import { useState } from 'react'
        </div>
        <div className={setting? "active": 'not-active'}>
         <div className='slide'>
-       <Link to='/login'><button className='one' onClick={()=> {setSetting(!setting)}}>Login <i class="fa-solid fa-circle-user" style={{color:"red", fontSize:"1rem"}}></i> </button></Link>
+       <Link to='/login'><button className='one' onClick={()=> {setSetting(!setting)}} style={{color: 'black'}}>Login <i class="fa-solid fa-circle-user" style={{color:"white", fontSize:"1rem"}}></i> </button></Link>
        <br/>
-       <br/>
-       <br/>
-       <br/>
-       <Link to='/cart'><h2 style={{color: "orangered"}}>Cart :<i class="fa-solid fa-cart-shopping" 
-       style={{color:"yellow",fontSize:"1rem"}}  onClick={()=> {setSetting(!setting)}} ></i></h2>{state.count}</Link>
+       <Link to='/cart'><h2 style={{color: "black", fontStyle: 'normal', textDecoration: 'none'}}>Cart: <i class="fa-solid fa-cart-shopping" 
+       style={{color:"red",fontSize:"1rem"}}  onClick={()=> {setSetting(!setting)}} ></i>{state.count}</h2></Link>
       </div>
        </div>
        </div>

@@ -8,7 +8,7 @@ function HandbagBoard () {
     const BagView = MyData.bags.find(three => three.hint === hint)
     
     return (
-        <div className="produce" style={{width: '40%', margin: "auto"}}>
+        <div className="produced" style={{margin: "auto"}}>
         <div className="displaying">
             <img src={BagView.image} alt={BagView.name}/>
             <div className="tags">

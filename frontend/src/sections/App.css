@@ -30,3 +30,28 @@
   left: 10%;
   position: absolute;
 }
+@media screen and (orientation:portrait) {
+  .main-container {
+    margin-top: 30%;
+    width: 100%;
+    position: relative;
+  }
+  .describe {
+    font-size: 2rem;
+    z-index: 1;
+
+  }
+}
+@media screen and (530px <= width <= 950px) {
+  .main-container {
+    margin-top: 15%;
+  }
+}
+@media screen and (1020px <= width <= 1290px){
+  .main-container {
+    margin-top: 13%;
+  }
+  .describe {
+    font-size: 2rem;
+  }
+}

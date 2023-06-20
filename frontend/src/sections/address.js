@@ -28,7 +28,7 @@ useEffect(()=> {
     <div className='hurry'>
       
       <div className='hurry3'>
-      <i class="fa-solid fa-dumpster-fire" style={{color:"orangered", fontSize:"7rem"}}><h4 style={{fontSize:"3rem", color:'white'}}>De~Frankys</h4></i>
+      <i class="fa-solid fa-dumpster-fire" style={{color:"orangered"}}><h4 style={{color:'white'}}>De~Frankys</h4></i>
       
       <diV className= 'hurry2'>
       <div className='woke'>
